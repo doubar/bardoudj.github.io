@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bardou DJ - Animation musicale</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+  }
+  header p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  section {
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  h2 {
+    border-bottom: 2px solid #222;
+    padding-bottom: 8px;
+  }
+  ul.playlists {
+    list-style: none;
+    padding: 0;
+  }
+  ul.playlists li {
+    margin-bottom: 12px;
+  }
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 40px;
+  }
+  .contact-button {
+    display: inline-block;
+    background: #0077cc;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .contact-button:hover {
+    background: #005fa3;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Bardou DJ</h1>
+    <p>Animation musicale – DJ pour bars, restaurants et événements privés</p>
+    <p>📱 06 13 85 05 12 | 📧 <a href="mailto:bardoudj@gmail.com">bardoudj@gmail.com</a></p>
+  </header>
+
+  <section>
+    <h2>Playlists & Mixes</h2>
+    <ul class="playlists">
+      <li><a href="https://soundcloud.com/example1" target="_blank" rel="noopener noreferrer">Chill Lounge Set - SoundCloud</a></li>
+      <li><a href="https://soundcloud.com/example2" target="_blank" rel="noopener noreferrer">House Party Mix - SoundCloud</a></li>
+      <li><a href="https://soundcloud.com/example3" target="_blank" rel="noopener noreferrer">Deep House Vibes - SoundCloud</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>À propos</h2>
+    <p>DJ passionné basé à Paris, j’anime vos soirées avec un style musical varié, adapté à votre ambiance.  
+       Que ce soit pour un bar, un restaurant ou un événement privé, je crée une atmosphère conviviale et festive.</p>
+  </section>
+
+  <section style="text-align:center;">
+    <a href="mailto:bardoudj@gmail.com" class="contact-button">Contactez-moi</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Bardou DJ – Tous droits réservés
+  </footer>
+</body>
+</html>
